@@ -1,6 +1,7 @@
 pipeline {
+    agent any
     environment {
-        DIRECTORY_PATH = 'path/to/your/code'
+        DIRECTORY_PATH = 'BreadcrumbsBraydenScriptsPipeline/index.html'
         TESTING_ENVIRONMENT = 'NameOfTestingEnvironment'
         PRODUCTION_ENVIRONMENT = 'YourName'
     }
